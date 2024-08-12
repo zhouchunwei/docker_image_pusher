@@ -3,5 +3,11 @@
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #支持指定架构
-#--platform=linux/arm64 xiaoyaliu/alist
-centos:centos7.9.2009
+#--platform=linux/amd64 xiaoyaliu/alist
+
+# 2024-08-12
+#centos:centos7.9.2009
+--platform=linux/amd64 redis:7.4.0
+--platform=linux/amd64 mysql:8.0.35
+--platform=linux/amd64 elasticsearch:7.17.23
+
