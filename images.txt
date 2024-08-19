@@ -10,7 +10,7 @@
 --platform=linux/amd64 registry:2.8.3
 --platform=linux/amd64 centos:centos6.10
 --platform=linux/amd64 centos:centos7.9.2009
---platform=linux/amd64 centos8.4.2105
+--platform=linux/amd64 centos:centos8.4.2105
 --platform=linux/amd64 redis:6.2.7
 --platform=linux/amd64 redis:7.4.0
 --platform=linux/amd64 mysql:5.7.44
